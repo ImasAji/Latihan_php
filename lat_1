@@ -1,0 +1,47 @@
+<?php
+	
+	// operasi bilangan 
+	echo"<br/>";
+
+	$x = 2;
+	$y = 10;
+	$z = 4;
+
+	$hasil = $x*$y/$z;
+	echo"$hasil";
+	echo"<br/>";
+	echo"<br/>";
+
+
+	// Menampilkan 2 variable 
+
+	$huruf1 ="Selamat Datang";
+	$huruf2 ="Di Indonesia";
+	echo"$huruf1"."$huruf2";
+	echo"<br/>";
+	echo"<br/>";
+
+	// Menampikan angka 1-10
+
+	$angka = 1;
+	echo $angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+	echo ++$angka."<br/>";
+
+	// Perbandingan Kondisional assigment Operator
+	
+	echo"<br/>";
+	echo"<br/>";
+	$operator = 5%2;
+	$operator = "ganjil"??"genap";
+	echo$operator;
+
+
+?>
